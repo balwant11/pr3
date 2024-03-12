@@ -4,11 +4,12 @@ import { Button } from '../styled/Button';
 function StartGame(props) {
   return (
     <Container>
-        <img src='/images/dices.png' alt='dices'/>
+        <img src='./images/dices.png' alt='dices'/>
         <div className='content'>
             <h1>DICE GAME</h1>
             <Button onClick={props.toggleGamePlay}>Play Now</Button>
         </div>
+       
     </Container>
   )
 }
