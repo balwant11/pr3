@@ -6,7 +6,7 @@ function RollDice({currentDice, roleDice}) {
   return (
     <DiceContainer>
         <div className="dice" onClick={roleDice}>
-        <img src={`/images/dice_${currentDice}.png`} alt='dices' />
+        <img src={`./images/dice_${currentDice}.png`} alt='dices' />
         </div>
         <p>Click on Dice to roll</p>
     </DiceContainer>
